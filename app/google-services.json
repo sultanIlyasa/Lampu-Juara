@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200002436864",
+    "project_id": "lampu-juara",
+    "storage_bucket": "lampu-juara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200002436864:android:e87f2b32d0b41cfafd3de5",
+        "android_client_info": {
+          "package_name": "com.codepolitan.belajarngoding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLrdgowByfTFK-iudxJZ_QEoL0Bqbqvgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
