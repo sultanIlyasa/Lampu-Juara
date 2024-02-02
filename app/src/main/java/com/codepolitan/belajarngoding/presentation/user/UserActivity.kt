@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings.ACTION_LOCALE_SETTINGS
 import com.bumptech.glide.Glide
-import com.codepolitan.belajarngoding.R
 import com.codepolitan.belajarngoding.databinding.ActivityUserBinding
 import com.codepolitan.belajarngoding.model.User
 import com.codepolitan.belajarngoding.presentation.changepassword.ChangePasswordActivity
@@ -74,7 +73,7 @@ class UserActivity : AppCompatActivity() {
             btnLogoutUser.setOnClickListener {
                 firebaseAuth.signOut()
                 startActivity<LoginActivity>()
-                finishAffinity()
+                //finishAffinity()
             }
 
             swipeUser.setOnRefreshListener {
